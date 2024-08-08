@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     // News
     fetch
-        .catch(error => console.error('No news found:', error));h('https://newsapi.org/v2/top-headlines?country=us&apiKey=YOUR_NEWS_API_KEY')
+        .catch(error => console.error('No news found:', error));h('https://newsapi.org/v2/top-headlines?country=us&apiKey=')
         .then(response => response.json())
         .then(data => {
             const newsList = document.getElementById('news');
@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Weather
     function weather(latitude, longitude) {
-        fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=YOUR_WEATHER_API_KEY&units=metric`)
+        fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=&units=metric`)
             .then(response => response.json())
             .then(data => {
                 const weatherInfo = document.getElementById('weather');
@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Location
     function location() {
-        fetch('https://ipinfo.io/json?token=YOUR_IPINFO_API_KEY')
+        fetch('https://ipinfo.io/json?token=')
             .then(response => response.json())
             .then(data => {
                 document.getElementById('location').innerHTML = `
