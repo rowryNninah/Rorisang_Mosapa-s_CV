@@ -1,0 +1,137 @@
+/*Styles for the body*/
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cv-contents h2, h3{
+    text-align: center;
+}
+
+.langs{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+
+}
+
+.skills-icon {
+    width: 90px;
+    height: auto;
+}
+
+
+
+
+.vertical-line{
+    border-left: 2px solid #ddd;
+    height: 30px;
+    margin: 10px 0;
+}
+
+.cv{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+ .box{
+    background-color: #f5f5f5;
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px;
+    box-sizing: content-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+
+
+/*.btn {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px; 
+}
+
+.btn a,
+.btn .news{
+    color: #ddd;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    background: grey;
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: none;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .btn .news {
+    color: #333;
+    font-size: 20px;
+    place-items: center;
+    background: transparent;
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: 2px solid grey;
+  }
+
+  .btn a:hover {
+    background: goldenrod;
+    color: #333;
+  }
+
+  .btn .news:hover {
+    background: goldenrod;
+    color: #333;
+    border-color: goldenrod;
+} */
+
+/*Styles for the header*/
+
+header {
+    color: goldenrod;
+    padding: 18px;
+    text-align: center;
+}
+
+/*styles for the section*/
+
+section {
+    background: #fff;
+    padding: 18px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+.news-weather{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.news-aside, .weather-aside{
+    flex: 1;
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
